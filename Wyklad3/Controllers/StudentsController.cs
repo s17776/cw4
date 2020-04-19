@@ -96,7 +96,7 @@ namespace Wyklad3.Controllers
         {
             student.IndexNumber=$"s{new Random().Next(1, 20000)}";
             //...
-            return Ok(student); //JSON
+            return Ok(student); //JSONss
         }
 
 
