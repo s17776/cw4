@@ -16,6 +16,7 @@ namespace Wyklad3.DTOs.Requests
         [Required]
         [MaxLength(255)]
         public string LastName { get; set; }
+
         public DateTime Birthdate { get; set; }
 
         [Required]
