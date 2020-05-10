@@ -8,10 +8,11 @@ namespace Wyklad3.DTOs.Requests
 {
     public class EnrollStudentRequest 
     {
-
+        [Required]
+        [RegularExpression("^s[0-9]+$")]
         public string IndexNumber { get; set; }
         [Required]
-        [MaxLength(10)]
+        [MaxLength(50)]
         public string FirstName { get; set; }
         [Required]
         [MaxLength(255)]

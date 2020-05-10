@@ -20,6 +20,7 @@ namespace Wyklad3.Models
       //  [Required]
         public string Studies { get; set; }
 
-    
+        public int Semester { get; set; }
+        public int IdStudent { get; internal set; }
     }
 }
